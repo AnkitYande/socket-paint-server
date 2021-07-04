@@ -2,7 +2,7 @@ const app = require("express")
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://ankityande.github.io/socket-paint-client/",
         credentials: true
     },
 });
